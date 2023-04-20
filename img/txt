@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="relative flex min-h-screen">
+      <!--sidebar -->
+      <div
+        class="flex w-[98px] flex-col items-center border border-[#EAEBF0] bg-[#FFFFFF] py-5 text-blue-100"
+      >
+        <img class="h-[38px] w-[66px]" src="/img/Rectangle.png" alt="" />
+        <!--nav-->
+        <div class="flex flex-col justify-between gap-96">
+          <nav class="flex flex-col justify-between">
+            <img
+              class="mt-[40px] h-[30px] w-[30px]"
+              src="/img/element-4.png"
+              alt=""
+            />
+            <img
+              class="mt-[40px] h-[24px] w-[24px]"
+              src="/img/home-trend-up.png"
+              alt=""
+            />
+            <img
+              class="mt-[40px] h-[24px] w-[24px]"
+              src="/img/wallet-minus.png"
+              alt=""
+            />
+            <img
+              class="mt-[40px] h-[24px] w-[24px]"
+              src="/img/profile-2user.png"
+              alt=""
+            />
+
+            <img
+              class="mt-[40px] h-[24px] w-[24px]"
+              src="/img/document-text.png"
+              alt=""
+            />
+          </nav>
+
+          <div class="flex flex-col">
+            <img
+              class="mt-[24px] h-[24px] w-[24px]"
+              src="/img/gear 1.png"
+              alt=""
+            />
+            <img
+              class="mt-[24px] h-[24px] w-[24px]"
+              src="/img/Icon.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <!--content-->
+      <div class="relative">
+        <div class="sticky top-0 flex-1 bg-[#FAFBFC] p-7">
+          <div class="flex">
+            <p class="text-[14px]">Home</p>
+            <img
+              class="ml-[20px] mr-[20px] mt-[5px] h-[10px] w-[4.65px]"
+              src="/img/homeIcon.png"
+              alt=""
+            />
+            <p class="text-[14px] text-red-600">Market</p>
+          </div>
+
+          <div class="flex flex-row justify-between">
+            <div class="mt-[30px] text-[28px]">Market</div>
+            <div class="mr-3 flex flex-row justify-between">
+              <div
+                class="mr-[20px] flex justify-between border border-[#EAEBF0] p-[8px]"
+              >
+                <button class="mr-2 text-[14px]">Page Setting</button>
+                <img
+                  class="mt-[25px] flex h-[20px] w-[20px]"
+                  src="/img/candle.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="flex justify-between border border-[#EAEBF0]">
+                <button class="ml-2 mr-2">Demo</button>
+                <img
+                  class="mt-[30px] flex h-[10px] w-[12px]"
+                  src="/img/Vector.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <p class="mb-[60px] mt-[12px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing
+          </p>
+
+          <div class="grid grid-cols-3 gap-6">
+            <div class="rounded-xl border border-[#EAEBF0] bg-[#FFFFFF] p-5">
+              <p class="text-[18px] text-[#1F1F1F]">Cash Balance</p>
+              <div class="mt-5 flex gap-9">
+                <div class="text-[28px]">#8,374,763</div>
+                <img
+                  class="ml-[100px] bg-gradient-to-tr from-red-200"
+                  src="/img/Line.png"
+                  alt=""
+                />
+              </div>
+              <div class="mt-5 flex">
+                <p
+                  class="mr-4 rounded-md bg-gradient-to-t from-red-100 px-[8px] py-[4px] text-[13px] text-red-500"
+                >
+                  Decline
+                </p>
+                <p class="mt-[4px] text-[14px]">Monitored Monthly</p>
+              </div>
+            </div>
+
+            <div
+              class="rounded-xl border border-solid border-[#EAEBF0] bg-[#FFFFFF] p-5"
+            >
+              <p class="text-[18px]">Securities Value</p>
+              <div class="mt-5 flex gap-10">
+                <div class="text-[28px]">#8,374,763</div>
+                <img
+                  class="ml-[100px] bg-gradient-to-tr from-red-200"
+                  src="/img/line2.png"
+                  alt=""
+                />
+              </div>
+              <div class="mt-7 flex">
+                <p
+                  class="mr-4 rounded-md bg-gradient-to-t from-red-100 px-[8px] py-[4px] text-[13px] text-red-500"
+                >
+                  Decline
+                </p>
+                <p class="mt-[4px] text-[14px]">Monitored Monthly</p>
+              </div>
+            </div>
+
+            <div
+              class="rounded-xl border border-solid border-[#EAEBF0] bg-[#FFFFFF] p-5"
+            >
+              <p class="text-[18px]">Loan Balance</p>
+              <div class="mt-5 flex gap-9">
+                <div class="text-[28px]">#8,374,763</div>
+                <img
+                  class="ml-[100px] bg-gradient-to-tr from-green-200"
+                  src="/img/Line3.png"
+                  alt=""
+                />
+              </div>
+              <div class="mt-5 flex">
+                <p
+                  class="mr-4 rounded-md bg-gradient-to-t from-green-100 px-[8px] py-[4px] text-[13px] text-green-600"
+                >
+                  Increment
+                </p>
+                <p class="mt-[4px] text-[14px]">Monitored Monthly</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mb-[10px] mt-[40px] flex w-[800px] flex-row justify-between"
+          >
+            <div>Product View</div>
+            <div class="border-b-2 border-red-500 text-red-600">Order Book</div>
+            <div>Price History</div>
+            <div class="flex">
+              <p class="mr-3">Open Orders</p>
+              <button class="bg-grey-200 rounded-full p-3">10</button>
+            </div>
+
+            <div class="flex">
+              <p class="mr-3">Closed Trades</p>
+              <p>20</p>
+            </div>
+
+            <div class="flex">
+              <p class="mr-3">Cancelled Trades</p>
+              <p>20</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-6">
+          <div class="rounded-lg bg-[#ffffff]">
+            <div class="border-b-2 border-b-gray-100 p-5 text-[20px]">
+              Buy Board
+            </div>
+            <table class="w-full">
+              <thead class="border-b-2 border-b-gray-100">
+                <tr>
+                  <th
+                    class="p-3 text-left text-sm font-semibold tracking-wide text-gray-400"
+                  >
+                    Product
+                  </th>
+                  <th
+                    class="p-3 text-left text-sm font-semibold tracking-wide text-gray-400"
+                  >
+                    Quantity
+                  </th>
+                  <th
+                    class="p-3 text-left text-sm font-semibold tracking-wide text-gray-400"
+                  >
+                    Price
+                  </th>
+                  <th
+                    class="p-3 text-left text-sm font-semibold tracking-wide text-gray-400"
+                  >
+                    Action
+                  </th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr class="border-b-2 border-b-gray-100">
+                  <td class="p-3 text-sm text-[#1e1e1e]">Soybeans(SSBS)</td>
+                  <td class="p-3 text-sm text-[#1e1e1e]">2003</td>
+                  <td class="p-3 text-sm text-green-500">6,471.39</td>
+                  <td class="p-3 text-sm text-green-500">Buy</td>
+                </tr>
+
+                <tr class="border-b-2 border-b-gray-100">
+                  <td class="p-3 text-sm text-[#1e1e1e]">Paddy Rice(SPRL)</td>
+                  <td class="p-3 text-sm text-[#1e1e1e]">86</td>
+                  <td class="p-3 text-sm text-green-500" class="text-green">
+                    6,471.39
+                  </td>
+                  <td class="p-3 text-sm text-green-500">Buy</td>
+                </tr>
+
+                <tr class="border-b-2 border-b-gray-100">
+                  <td class="p-3 text-sm text-[#1e1e1e]">Maize(SMAZ)</td>
+                  <td class="p-3 text-sm text-[#1e1e1e]">2003</td>
+                  <td class="p-3 text-sm text-green-500">6,471.39</td>
+                  <td class="p-3 text-sm text-green-500">Buy</td>
+                </tr>
+
+                <tr class="border-b-2 border-b-gray-100">
+                  <td class="p-3 text-sm text-[#1e1e1e]">Sorghum(SSGM)</td>
+                  <td class="p-3 text-sm text-[#1e1e1e]">2003</td>
+                  <td class="p-3 text-sm text-green-500">6,471.39</td>
+                  <td class="p-3 text-sm text-green-500">Buy</td>
+                </tr>
+
+                <tr class="border-b-2 border-b-gray-100">
+                  <td class="p-3 text-sm text-[#1e1e1e]">
+                    Fair Trade ETC(FETC)
+                  </td>
+                  <td class="p-3 text-sm text-[#1e1e1e]">2003</td>
+                  <td class="p-3 text-sm text-green-500">6,471.39</td>
+                  <td class="p-3 text-sm text-green-500">Buy</td>
+                </tr>
+
+                <tr class="border-b-2 border-b-gray-100">
+                  <td class="p-3 text-sm text-[#1e1e1e]">Sorghum(SSGM)</td>
+                  <td class="p-3 text-sm text-[#1e1e1e]">2003</td>
+                  <td class="p-3 text-sm text-green-500">6,471.39</td>
+                  <td class="p-3 text-sm text-green-500">Buy</td>
+                </tr>
+
+                <tr class="border-b-2 border-b-gray-100">
+                  <td class="p-3 text-sm text-[#1e1e1e]">Sorghum(SSGM)</td>
+                  <td class="p-3 text-sm text-[#1e1e1e]">2003</td>
+                  <td class="p-3 text-sm text-green-500">6,471.39</td>
+                  <td class="p-3 text-sm text-green-500">Buy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="rounded-xl bg-[#ffffff]">
+            <div class="border-b-2 border-b-gray-100 p-5 text-[20px]">
+              Sell Board
+            </div>
+            <table class="w-full bg-[#ffffff]">
+              <thead class="border-b-2 border-b-gray-100">
+                <tr>
+                  <th
+                    class="p-3 text-left text-sm font-semibold tracking-wide text-gray-400"
+                  >
+                    Product
+                  </th>
+                  <th
+                    class="p-3 text-left text-sm font-semibold tracking-wide text-gray-400"
+                  >
+                    Quantity
+                  </th>
+                  <th
+                    class="p-3 text-left text-sm font-semibold tracking-wide text-gray-400"
+                  >
+                    Price
+                  </th>
+                  <th
+                    class="p-3 text-left text-sm font-semibold tracking-wide text-gray-400"
+                  >
+                    Action
+                  </th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr class="border-b-2 border-b-gray-100">
+                  <td class="p-3 text-sm text-[#1e1e1e]">Soybeans(SSBS)</td>
+                  <td class="p-3 text-sm text-[#1e1e1e]">267</td>
+                  <td class="p-3 text-sm text-red-500">6,471.39</td>
+                  <td
+                    class="h-[0.1px] w-[0.5px] rounded-sm bg-gradient-to-t from-red-100 text-center text-sm text-red-500"
+                  >
+                    Sell
+                  </td>
+                </tr>
+
+                <tr class="border-b-2 border-b-gray-100">
+                  <td class="p-3 text-sm text-[#1e1e1e]">Paddy Rice(SPRL)</td>
+                  <td class="p-3 text-sm text-[#1e1e1e]">353</td>
+                  <td class="p-3 text-sm text-red-500" class="text-green">
+                    6,471.39
+                  </td>
+                  <td class="p-3 text-sm text-red-500">Sell</td>
+                </tr>
+
+                <tr class="border-b-2 border-b-gray-100">
+                  <td class="p-3 text-sm text-[#1e1e1e]">Maize(SMAZ)</td>
+                  <td class="p-3 text-sm text-[#1e1e1e]">2035</td>
+                  <td class="p-3 text-sm text-red-500">6,471.39</td>
+                  <td class="p-3 text-sm text-red-500">Sell</td>
+                </tr>
+
+                <tr class="border-b-2 border-b-gray-100">
+                  <td class="p-3 text-sm text-[#1e1e1e]">Sorghum(SSGM)</td>
+                  <td class="p-3 text-sm text-[#1e1e1e]">353</td>
+                  <td class="p-3 text-sm text-red-500">6,471.39</td>
+                  <td class="p-3 text-sm text-red-500">Sell</td>
+                </tr>
+
+                <tr class="border-b-2 border-b-gray-100">
+                  <td class="p-3 text-sm text-[#1e1e1e]">
+                    Fair Trade ETC(FETC)
+                  </td>
+                  <td class="p-3 text-sm text-[#1e1e1e]">2535</td>
+                  <td class="p-3 text-sm text-red-500">6,471.39</td>
+                  <td class="p-3 text-sm text-red-500">Sell</td>
+                </tr>
+
+                <tr class="border-b-2 border-b-gray-100">
+                  <td class="p-3 text-sm text-[#1e1e1e]">Sorghum(SSGM)</td>
+                  <td class="p-3 text-sm text-[#1e1e1e]">143</td>
+                  <td class="p-3 text-sm text-red-500">6,471.39</td>
+                  <td class="p-3 text-sm text-red-500">Sell</td>
+                </tr>
+
+                <tr class="border-b-2 border-b-gray-100">
+                  <td class="p-3 text-sm text-[#1e1e1e]">Sorghum(SSGM)</td>
+                  <td class="p-3 text-sm text-[#1e1e1e]">206</td>
+                  <td class="p-3 text-sm text-red-500">6,471.39</td>
+                  <td class="p-3 text-sm text-red-500">Sell</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="mb-[200px] mt-[50px] rounded-xl bg-[#ffffff]">
+          <div class="border-b-2 border-b-gray-100 p-5 text-[20px]">
+            Trade log
+          </div>
+          <table class="w-full">
+            <thead class="border-b-2 border-b-gray-100">
+              <tr>
+                <th
+                  class="p-3 text-left text-sm font-semibold tracking-wide text-gray-400"
+                >
+                  Security
+                </th>
+                <th
+                  class="p-3 text-left text-sm font-semibold tracking-wide text-gray-400"
+                >
+                  Board
+                </th>
+                <th
+                  class="p-3 text-left text-sm font-semibold tracking-wide text-gray-400"
+                >
+                  Order Type
+                </th>
+                <th
+                  class="p-3 text-left text-sm font-semibold tracking-wide text-gray-400"
+                >
+                  Matched Price
+                </th>
+                <th
+                  class="p-3 text-left text-sm font-semibold tracking-wide text-gray-400"
+                >
+                  Quantity
+                </th>
+                <th
+                  class="p-3 text-left text-sm font-semibold tracking-wide text-gray-400"
+                >
+                  Date
+                </th>
+                <th
+                  class="p-3 text-left text-sm font-semibold tracking-wide text-gray-400"
+                >
+                  Time
+                </th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr class="border-b-2 border-b-gray-100">
+                <td class="p-3 text-sm text-[#1e1e1e]">Soybeans(SSBS)</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">X-Traded</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">Sell</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">1792.65</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">2003</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">17 0ct,2020</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">07:38</td>
+              </tr>
+
+              <tr class="border-b-2 border-b-gray-100">
+                <td class="p-3 text-sm text-[#1e1e1e]">Paddy Rice(SPRL)</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">X-Traded</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">Sell</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">1792.65</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">86</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">17 0ct,2020</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">07:38</td>
+              </tr>
+
+              <tr class="border-b-2 border-b-gray-100">
+                <td class="p-3 text-sm text-[#1e1e1e]">Maize(SMAZ)</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">OTC</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">Buy</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">1792.65</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">2003</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">17 0ct,2020</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">07:38</td>
+              </tr>
+
+              <tr class="border-b-2 border-b-gray-100">
+                <td class="p-3 text-sm text-[#1e1e1e]">Sorghum(SSGM)</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">FI</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">Buy</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">1792.65</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">2003</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">17 0ct,2020</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">07:38</td>
+              </tr>
+
+              <tr class="border-b-2 border-b-gray-100">
+                <td class="p-3 text-sm text-[#1e1e1e]">Fair Trade ETC(FETC)</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">FI</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">Buy</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">1792.65</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">2003</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">17 0ct,2020</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">07:38</td>
+              </tr>
+
+              <tr class="border-b-2 border-b-gray-100">
+                <td class="p-3 text-sm text-[#1e1e1e]">Soybeans(SSBS)</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">X-Traded</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">Sell</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">1792.65</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">2003</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">17 0ct,2020</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">07:38</td>
+              </tr>
+
+              <tr class="border-b-2 border-b-gray-100">
+                <td class="p-3 text-sm text-[#1e1e1e]">Soybeans(SSBS)</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">Derivatives</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">Sell</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">1792.65</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">2003</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">17 0ct,2020</td>
+                <td class="p-3 text-sm text-[#1e1e1e]">07:38</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+<div class="sticky bottom-0 flex flex-row bg-white">
+          <div class="mr-4 mt-4 h-[51px] w-[164px] bg-black p-3 text-white">
+            Live Market
+          </div>
+          <div class="space-between flex">
+            <div class="mr-4 p-3">
+              <div>Sorghum(SSGM)</div>
+              <div>#30,834.59</div>
+            </div>
+
+            <div class="mr-4 p-3">
+              <div>Soybeans(SSBS)</div>
+              <div>#30,834.59</div>
+            </div>
+
+            <div class="mr-4 p-3">
+              <div>Maize(SMAZ)</div>
+              <div>#30,834.59</div>
+            </div>
+
+            <div class="mr-4 p-3">
+              <div>Paddy Rice(SPRL)</div>
+              <div>#30,834.59</div>
+            </div>
+
+            <div class="mr-4 p-3">
+              <div>Sorghum(SSGM)</div>
+              <div>#30,834.59</div>
+            </div>
+
+            <div class="mr-4 p-3">
+              <div>Cocoa(SCOC)</div>
+              <div>#30,834.59</div>
+            </div>
+          </div>
